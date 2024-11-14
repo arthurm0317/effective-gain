@@ -1,0 +1,516 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    height: 5000px;
+}
+.top_section{
+    display: flex;
+    position: relative;
+    height: 1000px;
+    background-image: url(../midia/effective_gain_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.header_main nav{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: left;
+    gap: 300px;
+    flex-direction: row;
+}
+.logo_img_name{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 20px;
+    gap: 10px;
+}
+.logo_image{
+    height: 50px;
+}
+.logo_name{
+    font-size: 24px;
+    text-decoration: none;
+    color: #0082ca;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.logo_name:hover{
+    color: #079fe1;
+}
+.list_home_about_plans{
+    align-items: center;
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+.list_content_home, .list_content {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.list_content_home a{
+    font-weight: bold;
+    width: 10px;
+    text-decoration: none;
+    color:  #0082ca;
+    transition: 0.5s;
+}
+.list_content a{
+    font-weight: bold;
+    width: 10px;
+    text-decoration: none;
+    color: #787878;
+    transition: 0.5s;
+}
+.list_content_home a:hover{
+    color: #0f9ce8;
+}
+.list_content a:hover{
+    color: #0082ca;
+}
+.automate_text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    margin-left: 10%;
+}
+.automate_title{
+    line-height: 1;
+    font-size: 50px;
+    font-weight: 900;
+    width: 540px;
+}
+.automate_paragraph{
+    margin-top: -10px;
+    font-size: 24px;
+    width: 500px;
+    color: #787878;
+}
+.buttons_contact_learn_more{
+    display: flex;
+    gap: 40px;
+    width: 500px;
+    align-items: center;
+}
+.contact_button,
+.learn_button{
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 50px;
+    transition: 0.5s;
+    
+}
+.contact_button{
+    background-color: #0082ca;
+    color: white;  
+}
+.contact_button:hover {
+    background-color: #079fe1;
+}
+.learn_button{
+    background-color: transparent;
+    color: #0082ca;
+    border: 2px solid #0082ca;
+    
+}
+.learn_button:hover {
+    background-color: #0082ca;
+    color: white;
+}
+.middle_section_part_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.planning_communication{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.planning_communication_title{
+    justify-content: center;
+    width: 70%;
+    font-weight: 900;
+    font-size: 3em;
+}
+.planning_communication_paragraph{
+    text-align: center;
+    margin: -10px;
+    color: #787878;
+    font-size: 24px;
+    width: 50%;
+}
+.circles_phone_money_gpt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+.circles_and_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+
+}
+.circles{
+    width: 36%;
+}
+.circles_and_text h1{
+    margin-bottom: 0px;
+    font-size: 30px;
+    justify-content: center;
+    width: 80%;
+    font-weight: 700;
+}
+.circles_and_text p{
+    font-size: 22px;
+    width: 140%;
+    color: #787878;
+}
+.circles_phone_money_gpt hr{
+    border: none;
+    margin: 0px;
+    width: 5%;
+    border-top: 3px dotted #000;
+    border-image: repeating-linear-gradient(to right, #000, #000 10px, transparent 10px, transparent 20px) 1;
+}
+.chat_and_text{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.phone_img{
+    width: 50%;
+}
+.chat_and_text img{
+    width: 100%;
+}
+.text_of_phone_img{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.text_of_phone_img h1{
+    line-height: 1;
+    align-self: center;
+    width: 70%;
+    text-align: left;
+    font-weight: 900;
+    font-size: 3em;
+}
+.text_of_phone_img_p{
+    text-align: left;
+    align-self: center;
+    color: #787878;
+    font-size: 24px;
+    width: 70%;
+}
+.find_out{
+    color: #575757;
+    text-align: left;
+    margin-left: 15%;
+    font-size: 24px;
+    font-weight: 700;
+    width: 50%;
+}
+.contact_us_button{
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 50px;
+    transition: 0.5s;
+    width: 20%;
+    margin-left: 15%;
+    background-color: #0082ca;
+    color: white;  
+}
+.contact_us_button:hover{
+    background-color: #079fe1;
+}
+.middle_section_part_2{
+    background-image: url(../midia/Effective_Gain_04.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    width: 100%;
+}
+.div_middle_sect{
+    width: 50%;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.gap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.div_middle_sect h1{
+    line-height: 1;
+    width: 70%;
+    text-align: left;
+    font-weight: 900;
+    font-size: 3em;
+}
+.check_and_text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start; 
+    justify-items: start;
+    gap: 3%;
+}
+.check_and_text img{
+    width: 30px;
+    height: 30px;   
+}
+.subtitle{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.div_middle_sect_2 h1{
+    line-height: 1;
+    width: 110%;
+    text-align: left;
+    font-weight: 900;
+    font-size: 3em;
+}
+.subtitle h1{
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 1.7em;
+    font-weight: 900;
+}
+.subtitle p{
+    margin: 5px;
+    width: 90%;
+    text-align: left;
+    color: #787878;
+    font-size: 1.2em;
+    margin-bottom: 2%;
+}
+.middle_section_part_3{
+    margin-top: 2%;
+    background-image: url(../midia/Effective_Gain_05.jpg);
+    height: 1500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    margin-left: 2%;
+}
+.div_middle_sect_2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.cards_planos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30%;
+    margin-top: -35%;
+}
+.card{
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+.title_card, .title_card_mult, .title_card_emp{
+    background-color: #58BF90;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.title_card h1{
+    width: 60%;
+}
+.preco_card h1{
+    color: #58BF90;
+    font-size: 2.5em;
+}
+.preco_card span{
+    font-size: 20px;
+    color: #acaaaa;
+}
+.card hr{
+    width: 20%;
+    height: 3px;
+    border: none;
+    border-radius: 20px;
+    background-color: #acaaaa;
+    margin-top: -10px;
+}
+.text_card, .text_card_mult{
+    width: 80%;
+    text-align: center;
+}
+.text_card p, .text_card_mult p{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.beneficios_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.check_and_text_card{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-bottom: -5%;
+}
+.check_and_text_card img{
+    width: 5%;
+    margin-right: 2%;
+}
+.check_and_text_card p{
+    display: flex;
+    justify-content: center;
+   align-items: flex-start;
+    font-size: 1em;
+}
+.title_card_avnc{
+    background-color: #58BF90;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.title_card_avnc h1, .title_card_mult h1{
+    width: 70%;
+}
+.preco_card_sob_consulta h1{
+    color: #58BF90;
+    font-size: 2em;
+}
+.preco_card_sob_consulta span{
+    font-size: 20px;
+    color: #acaaaa;
+}
+.text_card span{
+    display: flex;
+    background-color: #58BF90;
+    margin-left: -13%;
+    color: white;
+    width: 100% ;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.preco_card h2{
+    color: #58BF90;
+    margin-bottom: -20%;
+}
+.title_card_mult, .title_card_emp{
+    width: 100%;
+}
+.text_card_mult span{
+    background-color: #58BF90;  
+    color: #FFFFFF;             
+    font-weight: bold;          
+    width: 24px;                
+    height: 24px;            
+    border-radius: 50%;        
+    display: inline-flex;       
+    align-items: center;       
+    justify-content: center;    
+    font-size: 1em;            
+    line-height: 1;            
+    margin-left: 4px;         
+    margin-right: 4px; 
+}
+.title_card_emp{
+    background: linear-gradient(to right, #b06d00, #fdd835); 
+    color: #FFFFFF;               
+    font-weight: bold;                        
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+.title_card_emp h1{
+    width: 50%;
+}
+#empresa_preco h1{
+    color: #fdd835;
+}
+.bottom_section{
+    display: flex;
+    flex-direction: column;
+}
+.card:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+    transform: translateY(-1%);
+}
+.div_bottom_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -40%;
+    margin-left: 2%;
+}
+.div_bottom_section img{
+    width: 15%;
+}
+.div_bottom_section h1{
+    color: #017bbd;
+    align-self: center;
+
+}
+.logo_bottom{
+    display: flex;
+    gap: 2%;
+}
+.about_sup_social{
+    display: flex;
+    width: 50%;
+    left: 50%;
+    gap: 20%;
+}
+.about_sup_social h1{
+    color: black;
+}
+.bottom_section hr{
+    width: 80%;
+    height: 2px;
+    border: none;
+    border-radius: 20px;
+    background-color: #acaaaa;
+    margin-top: 30%;
+
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+.copyright p{
+    font-size: 1.2em;
+}
